@@ -11,7 +11,7 @@ const ProductDetails = () => {
       try {
         const response = await fetch(`https://dummyjson.com/products/${id}`)
         const result = await response.json();
-        setProduct(result.id);
+        setProduct(result);
       } catch (error) {
         console.log(error.message);
       }
@@ -26,9 +26,13 @@ const ProductDetails = () => {
 
   return (
     <div>
-      <h1>{product.title}</h1>
-      <h1>{product.description}</h1>
-      <h1>{product.thumbnail}</h1>
+
+<img src={product.thumbnail} alt={product.title} className="more"/>
+    <h1>Name:{product.title}</h1>
+      <h1>Description:{product.description}</h1>
+      <h1>Price:{product.price}</h1>
+      <h1>Discount:{product.discountPercentage}</h1>
+      
     </div>
   );
 };
