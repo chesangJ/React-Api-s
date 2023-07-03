@@ -1,0 +1,22 @@
+.form{
+    width: 50%;
+    margin: 0 auto;
+}
+.form >input{
+    padding: 12px 28px;
+    width: 70%;
+    border: solid 1px pink;
+}
+.form > button{
+    border: none;
+    outline: none;
+    padding: 10px 12px;
+    background-color: aqua;
+    border-radius: 5px;
+    color: #ffffff;
+    margin-left: 35%;
+
+}
+.form >h1{
+    margin-left: 30%;
+}

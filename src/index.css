@@ -11,3 +11,31 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+li{
+  list-style-type: none;
+  text-decoration: none;
+  
+}
+ul{
+  display: flex;
+  justify-content: space-evenly;
+  text-decoration: none;
+  
+  
+}
+.navbar{
+  text-decoration: none;
+  background-color: rgb(41, 208, 214);
+  padding: 5px 10px;
+  color: crimson;
+
+  
+}
+Link{
+  text-decoration: none;
+  color: azure;
+}
+nav,UL,li{
+  text-decoration: none;
+}
