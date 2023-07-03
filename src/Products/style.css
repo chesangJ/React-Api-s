@@ -8,6 +8,8 @@
  margin-right: 10%;
  margin-left: 10%;
  padding: 8px 10px 8px 30px;
+ flex-wrap: wrap;
+ 
 }
 .image{
     width: 80%;
@@ -25,4 +27,8 @@ button{
 }
 Link{
     text-decoration: none;
+}
+
+body{
+    background-color: azure;
 }

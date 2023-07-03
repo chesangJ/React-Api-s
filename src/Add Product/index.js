@@ -1,56 +1,6 @@
 // import React, { useState, useEffect } from "react";
 
 
-// const Add=()=>{
-
-//   const [product,setProduct]=useState('');
-//   const[loading,setLoading]=useState(false)
-// useEffect(()=>{
-//   (async()=>{
-//     await addProduct()
-//   })();
-// },[]);
-
-
-  
-//   const addProduct=async ()=>{
-  
-//       try{
-//           setLoading(true)
-//       const response=await   fetch('https://dummyjson.com/products/add')
-//       const result=await response.json();
-//       setProduct(result.product);
-//       setLoading(false);
-//   }
-//   catch(error){
-//       console.log(error.message)
-//   }
-//   };
-//   console.log({product});
-//   if(loading){
-//       return <p>Loading...</p>
-//   }
-//       return(
-          
-//           <div className="product"> 
-          
-        
-//       <div >
-          
-//       </div>
-    
-      
-
-  
-  
-  
-        
-//           </div> 
-          
-//       )
-//   };
-  
-//   export default Add
 
 import React, { useState, useEffect } from "react";
 

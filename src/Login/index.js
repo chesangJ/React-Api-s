@@ -33,7 +33,7 @@ const Login=()=>{
            if (result.success) {
             setSuccessMessage('Login successful!');
           } else {
-            setSuccessMessage('Login failed.');
+            setSuccessMessage('Login successfull.');
           } 
        
            console.log(result);

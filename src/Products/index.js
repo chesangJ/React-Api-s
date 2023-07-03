@@ -33,11 +33,17 @@ if(loading){
 }
     return(
         
+        
         <div className="product"> 
         
-       <button> <Link to="/Add Product">Add </Link></button> 
+       
+         {/* <button> <Link to="/Add Product">Add </Link></button>   */}
+        
+      
 
 {products.map(item=>(
+ 
+
     <Link to={`./product/${item.id}`}  key={item.id}>
     <div className="id"  >
         <img src={item.thumbnail} alt={item.title} className="image"/>
